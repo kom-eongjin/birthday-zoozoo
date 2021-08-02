@@ -1,0 +1,55 @@
+
+ #draggable
+  {
+    width:20px;
+    height:15px
+    padding: 0;
+    border: 1px;
+    margin: 0 auto;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    float: left
+
+
+  }
+
+.cake
+{
+  display: block;
+  margin: 0px auto;
+}
+
+body
+{
+  background-color: #cbffcc;
+}
+
+.info
+{
+  color: skyblue;
+  text-align: center;
+}
+
+@keyframes blink-effect {
+  50% {
+    opacity: 0;
+  }
+}
+
+.info {
+  animation: blink-effect 1s step-end infinite;
+
+  /*
+  animation-name: blink-effect;
+  animation-duration: 1s;
+  animation-iteration-count:infinite;
+  animation-timing-function:step-end;
+  */
+}
+
+.message
+{
+  text-align: center;
+  font-size: 10px;
+  color: white;
+}
