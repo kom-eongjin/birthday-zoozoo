@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="kr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>birthday-zoozoo</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script>
+
+
+  $( function() {
+    $( ".drag1, .drag2, .drag3, .drag4, .drag5, .drag6" ).draggable();
+  } );
+
+  $(".drag1").ready(function(){
+      $(".imgone").click(function(){
+          // Change src attribute of image
+          $(this).attr("src", "light1z.png");
+        });
+  });
+
+  $(".drag2").ready(function(){
+      $(".imgtwo").click(function(){
+          // Change src attribute of image
+          $(this).attr("src", "light2z.png");
+        });
+  });
+
+  $(".drag3").ready(function(){
+      $(".imgthree").click(function(){
+          // Change src attribute of image
+          $(this).attr("src", "light3.png");
+        });
+  });
+
+  $(".drag4").ready(function(){
+      $(".imgfour").click(function(){
+          // Change src attribute of image
+          $(this).attr("src", "light4.png");
+        });
+  });
+
+  $(".drag5").ready(function(){
+      $(".imgfive").click(function(){
+          // Change src attribute of image
+          $(this).attr("src", "light5.png");
+        });
+  });
+
+  $(".drag6").ready(function(){
+      $(".imgsix").click(function(){
+          // Change src attribute of image
+          $(this).attr("src", "light6.png");
+        });
+  });
+
+
+  </script>
+
+</head>
+
+<body oncontextmenu="return false">
+
+  <center><img src="text.jpg" width="220" height="135"></center>
+  <div class="info">
+    <p> Drag and Drop the candle!<br>Please click to light the candle ;)</p>
+  </div>
+  <br>
+  <br>
+  <img src="cake.png" width="230" class="cake"></center>
+  <br>
+  <center><div id="draggable" class="drag1">
+  <p><img src="candle1.png" width="17" class="imgone"></p>
+  </div>
+
+  <div id="draggable" class="drag2">
+  <img src="candle2.png" width="17" class="imgtwo">
+  </div>
+
+  <div id="draggable" class="drag3">
+  <img src="candle3.png" width="20" class="imgthree">
+  </div>
+
+  <div id="draggable" class="drag4">
+  <img src="candle4.png" width="20" class="imgfour">
+  </div>
+
+  <div id="draggable" class="drag5">
+  <img src="candle5.png" width="20" class="imgfive">
+  </div>
+
+  <div id="draggable" class="drag6">
+  <img src="candle6.png" width="20" class="imgsix">
+</div>
+
+  <div class="message">
+
+    <p> TO . 주주 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FROM . 명지니</p>
+  </div>
+
+
+
+</body>
+</html>
